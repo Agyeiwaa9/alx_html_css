@@ -7,20 +7,50 @@ code {
   padding: 24px 15px;
   text-align: center;
 }
+.logo {
+  float:left;
+  color:blue;
+}
+
+body,main {
+  display:flex;
+}
+
+body{
+  flex-direction:column
+}
+
+main {
+  flex-direction: row;
+  flex:auto;
+}
+
 header,
 article,
 aside,
 footer {
   margin: 0 1.5% 24px 1.5%;
 }
+
+header{
+  float:left;
+text-align: center;
+}
+
 article {
   float: left;
   width: 66.66%;
+  flex:2;
+  overflow-y:auto;
 }
+
 aside {
   float: right;
   width: 33.34%;
+  flex: 1;
+  overflow-y:auto;
 }
+
 footer {
   clear: both;
   margin-bottom: 0;
