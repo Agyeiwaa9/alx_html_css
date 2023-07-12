@@ -9,7 +9,7 @@ code {
 }
 .logo {
   float:left;
-  color:blue;
+  color:blue !important;
 }
 
 body,main {
@@ -17,7 +17,7 @@ body,main {
 }
 
 body{
-  flex-direction:column
+  flex-direction:column;
 }
 
 main {
@@ -33,11 +33,12 @@ footer {
 }
 
 header{
-  float:left;
+  float:center;
 text-align: center;
 }
 
 article {
+  margin: 0 1.5%
   float: left;
   width: 66.66%;
   flex:2;
@@ -45,10 +46,10 @@ article {
 }
 
 aside {
+  margin: 0 1.5%;
   float: right;
-  width: 33.34%;
-  flex: 1;
   overflow-y:auto;
+  flex:1;
 }
 
 footer {
