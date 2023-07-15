@@ -1,1 +1,1 @@
-Flexbix project
+Flexbox project
