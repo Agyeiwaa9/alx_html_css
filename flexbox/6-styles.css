@@ -249,7 +249,7 @@
     width: 100%;
   }
 
-.nav + .nav-item + .nav-item {
+.nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
 }
 
@@ -375,10 +375,8 @@
   }
 
 /* Section SERVICES ============================= */
-  .section-services{
-    .row {
-      flex-wrap: wrap;
-    }
+  .section-services .row{
+      flex-wrap: wrap;  
   }
 
 
