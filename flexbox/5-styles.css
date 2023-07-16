@@ -59,11 +59,7 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
   
-    /** HEADER **/
-     .header-container{
-       display: flex;
-       justify-content:space-between;
-     }
+    /** HEADER **/ 
        
     --header-padding: 4rem 0 0;
     
@@ -266,6 +262,11 @@
          z-index: 3;
          background: transparent;
   }
+
+.header-container{
+       display: flex;
+       justify-content:space-between;
+}
   
   
   /* Footer
