@@ -189,7 +189,7 @@
   .row {
     display:flex;
     content: '';
-    display: table;
+    
     clear: both;
   }
   
@@ -376,11 +376,13 @@
 
 /* Section Latest news ============================= */
   .section-latest-news .row{
+      display: flex;
    flex-direction:row-reverse;
   }
 
 /* Section SERVICES ============================= */
-   .section-services > .row{
+   .section-services .row{
+       display: flex;
        flex-wrap: wrap;
    }
 
