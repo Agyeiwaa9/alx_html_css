@@ -179,19 +179,20 @@
   
   /* Grid
       ============================= */
-  
-  ul.row {
+
+.row {
+    display:flex;
+    content: '';
+    
+    clear: both;
+}
+
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  .row > p {
-    display:flex;
-    content: '';
-    display: table;
-    clear: both;
-  }
   
   [class*='col-'] {
     padding: 0.5rem;
