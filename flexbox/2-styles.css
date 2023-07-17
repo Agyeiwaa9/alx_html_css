@@ -189,7 +189,7 @@
   .row {
     display:flex;
     content: '';
-    display: table;
+    
     clear: both;
   }
   
@@ -375,7 +375,7 @@
   }
 
 /* Section Latest news ============================= */
-  .section-latest-news .row{
+  .section-latest-news >.row{
    flex-direction:row-reverse;
   }
     
