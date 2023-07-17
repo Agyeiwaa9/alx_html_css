@@ -186,7 +186,7 @@
     list-style: none;
   }
   
-  .row {
+  .row > p {
     display:flex;
     content: '';
     display: table;
